@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.profile {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: rgb(30 41 59);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+    transition:height 0.3s;
+}
+
+.sidebar .logo {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+  color:white;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+    display: inline-block;
+}
+.contact {
+  margin-top: auto; /* Pushes the section to the bottom */
+ /* Initial background color */
+  color: white; /* Initial text color */
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
+  transition: transform 0.3s;
+  font-size: 13px;
+
+}
+
+.contact a {
+  color: #0000CD; /* Initial color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.5s ease; /* Smooth color transition */
+}
+
+.contact a:hover {
+  color:white; /* Color on hover */
+}
+.contact h2 {
+  color: #D8BFD8; /* Initial color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.5s ease;
+    transition: transform 0.3s;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      font-size: 25px;
+}
+.contact h2:hover{
+  color:white;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #E5E4E2
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 15px;
+  font-family: Roman,sans-serif;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+	background-color: rgb(30 41 59);
+      margin-top: 40px;
+      color: rgb(94 234 212);
+}
+
+.widget {
+
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  	background-color: rgb(30 41 59);
+}
+
+.widget h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(94, 234, 212);
+}
+
+.widget:hover {
+  transform: translateY(10px);
+}
+h2{
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(124, 45, 18);
+}
